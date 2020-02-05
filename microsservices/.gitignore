@@ -1,0 +1,29 @@
+/.vscode
+*.pyc
+db.sqlite3
+venv/
+*.sqlite3
+media/
+**/media/
+**/media/**
+*.pyc
+*.db
+*.pid
+# django migrations
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# Django stuff:
+*.log
+local_settings.py
+settings_dev.py
+manage.py
+*.env
+.idea
+
